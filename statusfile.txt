@@ -1,0 +1,66 @@
+  Season Spring Retreats 2371
+
+  Version 0.2.0
+  
+  Wormhole Spa Sev
+
+  NoRetreatsTo Smy Liv
+
+  Russia (Klingon):
+     Mos StP War Sev
+
+     Mos Army Infiltrated
+     StP (sc) Fleet
+     Liv Army
+
+  Italy (Cardassian):
+     Rom Nap Ven
+
+     Sil Flarmy
+     Rom Flarmy
+     Nap Flarmy
+     Ven Flarmy
+
+  England (Romulan):
+     Lon Lvp Edi 
+
+     Lvp Fleet Cloaked Infiltrated
+     Edi Fleet Cloaked
+     Lon Fleet Cloaked Knows(Cardassian,Klingon)
+     
+
+  France (Federation):
+     Par Mar Bre
+
+     Liv Army Dislodged
+     Smy Fleet Enterprise
+     Par Army
+     Mar Army
+     Bre Fleet
+
+  Turkey (Ferengi):
+     Con Ank Smy
+
+     Smy Fleet Dislodged(Ems)
+     Sil Army Trader
+     Bla Fleet Trader Infiltrated
+     Con Fleet
+     Ank Fleet
+
+  Germany (Borg):
+     Mun Ber Kie
+
+     Bla Fleet
+     Sil Army Dislodged(Pru)
+     Nao Fleet Assimilated(Klingon)
+     Mun Army
+     Kie Fleet
+     Ber Fleet
+
+  Austria (Dominion):
+     Vie Bud Tri
+
+     Tun Fleet
+     Vie Army
+     Bud Army
+     Tri Army

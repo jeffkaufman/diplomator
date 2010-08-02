@@ -1,0 +1,29 @@
+This program is capable of displaying the star trek variant (st02) of
+diplomacy.  The original rules are at:
+
+  http://www.variantbank.org/results/rules/s/startrekcivilisation.htm
+
+Usage for this is:
+
+  python disp.py datafilesdir statusfile outputimage
+
+Example:
+
+  python ~/bin/disp.py ~/dipper_data_files status.txt img.png
+
+
+
+There is also a more experimental program, splitdisp.py, that takes a
+text version of the orders or status and makes multiple text versions
+each with the appropriate amount of private information.  If the file
+has 'status' in the name (instead of orders) it also creates images.
+File output names are determined by the season as defined in the input
+file.
+
+Usage for this is:
+
+  python splitdisp.py datafiledir statusfile.txt
+
+Or:
+
+  python splitdisp.py datafiledir ordersfile.txt

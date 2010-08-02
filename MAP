@@ -1,0 +1,765 @@
+# EXAMPLE MAP FILE
+#
+#
+# FORMAT:
+#
+#
+#   NUMPROVINCES
+#     P_0 ISSC HASCOASTS ISWATER 
+#     P_1 ...
+#     ... ...
+#     P_NUMPROVINCES-1 ...
+#
+#
+#  //REPEAT:
+#
+#   PROVINCE  <-- SAME ORDER AS ABOVE
+#      NUMNEIGHBORS
+#         N_0 ARMYCAN FLEETCAN (N OR S)
+#         N_1
+#         ...
+#         N_NUMNEIGHBORS-1
+#   PROVINCE <-- TERMINAOOR SEG
+#      
+75
+  NAO F F T
+  NWG F F T
+  IRI F F T
+  NTH F F T
+  BAR F F T
+  SKA F F T
+  HEL F F T
+  BAL F F T
+  GOB F F T
+  ENG F F T
+  MAO F F T
+  WMS F F T
+  GOL F F T
+  TYS F F T
+  ADR F F T
+  ION F F T
+  AEG F F T
+  EMS F F T
+  BLA F F T
+  
+  CLY F F F
+  WAL F F F
+  YOR F F F
+  PIC F F F
+  GAS F F F
+  BUR F F F 
+  RUH F F F 
+  PRU F F F
+  SIL F F F
+  PIE F F F
+  TUS F F F
+  APU F F F
+  NAF F F F
+  BOH F F F 
+  GAL F F F
+  ALB F F F
+  SYR F F F
+  ARM F F F
+  UKR F F F
+  LIV F F F 
+  FIN F F F
+  TYR F F F
+  
+  
+  LVP T F F
+  EDI T F F
+  LON T F F
+  BEL T F F
+  BRE T F F
+  PAR T F F
+  MAR T F F
+  POR T F F
+  VEN T F F
+  ROM T F F
+  TRI T F F
+  VIE T F F
+  BUD T F F
+  SER T F F
+  GRE T F F
+  KIE T F F
+  BER T F F
+  MUN T F F
+  SWE T F F
+  NWY T F F
+  RUM T F F
+  SEV T F F
+  ANK T F F
+  SMY T F F
+  NAP T F F
+  WAR T F F
+  MOS T F F
+  TUN T F F
+  HOL T F F
+  DEN T F F
+  CON T F F
+  
+  BUL T T F
+  STP T T F
+  SPA T T F
+
+  
+  
+  
+  
+  
+
+PROVINCE: NAO
+  5 0 5
+    NWG F T
+    CLY F T
+    LVP F T
+    IRI F T
+    MAO F T
+    
+PROVINCE: NWG
+  6 0 6
+    NAO F T
+    CLY F T
+    EDI F T
+    NTH F T
+    NWY F T
+    BAR F T
+    
+PROVINCE: IRI
+  5 0 5
+    NAO F T
+    LVP F T
+    WAL F T
+    ENG F T
+    MAO F T
+    
+PROVINCE: NTH
+  11 0 11
+    NWG F T
+    EDI F T
+    YOR F T
+    LON F T
+    ENG F T
+    BEL F T
+    HOL F T
+    HEL F T
+    DEN F T
+    SKA F T
+    NWY F T
+    
+PROVINCE: BAR
+  3 0 3
+    NWG F T
+    NWY F T
+    STP F T
+    
+PROVINCE: SKA
+  4 0 4
+    NTH F T
+    DEN F T
+    SWE F T
+    NWY F T
+    
+PROVINCE: HEL
+  4 0 4
+    NTH F T
+    HOL F T
+    KIE F T
+    DEN F T
+    
+PROVINCE: BAL
+  7 0 7
+    SWE F T
+    DEN F T
+    KIE F T
+    BER F T
+    PRU F T
+    LIV F T
+    GOB F T
+    
+PROVINCE: GOB
+  5 0 5
+    FIN F T
+    SWE F T
+    BAL F T
+    LIV F T
+    STP F T
+    
+PROVINCE: ENG
+  8 0 8
+    WAL F T
+    IRI F T
+    MAO F T
+    BRE F T
+    PIC F T
+    BEL F T
+    NTH F T
+    LON F T
+    
+PROVINCE: MAO
+  9 0 9
+    NAO F T
+    IRI F T
+    ENG F T
+    BRE F T
+    GAS F T
+    SPA F T
+    POR F T
+    WMS F T
+    NAF F T
+  
+PROVINCE: WMS
+  6 0 6
+    MAO F T
+    NAF F T
+    TUN F T
+    TYS F T
+    GOL F T
+    SPA F T
+    
+PROVINCE: GOL
+  6 0 6
+    SPA F T
+    WMS F T
+    TYS F T
+    TUS F T
+    PIE F T
+    MAR F T
+    
+PROVINCE: TYS
+  7 0 7
+    TUS F T
+    GOL F T
+    WMS F T
+    TUN F T
+    ION F T
+    NAP F T
+    ROM F T
+    
+PROVINCE: ADR
+  5 0 5
+    TRI F T
+    VEN F T
+    APU F T
+    ION F T
+    ALB F T
+    
+PROVINCE: ION
+  9 0 9
+    TUN F T
+    TYS F T
+    NAP F T
+    APU F T
+    ADR F T
+    ALB F T
+    GRE F T
+    AEG F T
+    EMS F T
+    
+PROVINCE: AEG
+  6 0 6
+    BUL F T
+    GRE F T
+    ION F T
+    EMS F T
+    SMY F T
+    CON F T
+    
+PROVINCE: EMS
+  4 0 4
+    ION F T
+    AEG F T
+    SMY F T
+    SYR F T
+    
+PROVINCE: BLA
+  6 0 6
+    SEV F T
+    RUM F T
+    BUL F T
+    CON F T
+    ANK F T
+    ARM F T
+    
+    
+    
+    
+PROVINCE: CLY
+  4 2 4
+    NAO F T
+    LVP T T
+    EDI T T
+    NWG F T
+  
+PROVINCE: WAL
+  5 2 4
+    LVP T T
+    IRI F T
+    ENG F T
+    LON F T
+    YOR T F
+    
+PROVINCE: YOR
+  5 4 3
+    EDI T T
+    LVP T F
+    WAL T F
+    LON T T
+    NTH F T
+    
+PROVINCE: PIC
+  5 4 3
+    ENG F T
+    BRE T T
+    PAR T F
+    BUR T F
+    BEL T T    
+
+PROVINCE: GAS
+  6 5 3
+    BRE T T
+    MAO F T
+    SPA T T
+    MAR T F
+    BUR T F
+    PAR T F
+    
+PROVINCE: BUR
+  7 7 0
+    PIC T F
+    PAR T F
+    GAS T F
+    MAR T F
+    MUN T F
+    RUH T F
+    BEL T F
+    
+PROVINCE: RUH
+  5 5 0
+    BEL T F
+    BUR T F
+    MUN T F
+    KIE T F
+    HOL T F
+    
+PROVINCE: PRU
+  5 4 3
+    BAL F T
+    BER T T
+    SIL T F
+    WAR T F
+    LIV T T
+    
+PROVINCE: SIL
+  6 6 0
+    BER T F
+    MUN T F
+    BOH T F
+    GAL T F
+    WAR T F
+    PRU T F
+    
+PROVINCE: PIE
+  5 4 3
+    MAR T T
+    GOL F T
+    TUS T T
+    VEN T F
+    TYR T F
+    
+PROVINCE: TUS
+  5 3 4
+    PIE T T
+    GOL F T
+    TYS F T
+    ROM T T
+    VEN T F
+  
+PROVINCE: APU
+  5 3 4
+    VEN T T
+    ROM T F
+    NAP T T
+    ION F T
+    ADR F T
+    
+PROVINCE: NAF
+  3 1 3
+    MAO F T
+    WMS F T
+    TUN T T
+    
+PROVINCE: BOH
+  5 5 0
+    MUN T F
+    TYR T F
+    VIE T F
+    GAL T F
+    SIL T F
+    
+PROVINCE: GAL
+  7 7 0
+    SIL T F
+    BOH T F
+    VIE T F
+    BUD T F
+    RUM T F
+    UKR T F
+    WAR T F
+    
+PROVINCE: ALB
+  5 3 4
+    TRI T T
+    ADR F T
+    ION F T
+    GRE T T
+    SER T F
+    
+PROVINCE: SYR
+  3 2 2
+    EMS F T
+    SMY T T
+    ARM T F
+
+PROVINCE: ARM
+  5 4 3
+    SEV T T
+    BLA F T
+    ANK T T
+    SMY T F
+    SYR T F
+    
+PROVINCE: UKR
+  5 5 0
+    WAR T F
+    GAL T F
+    RUM T F
+    SEV T F
+    MOS T F
+    
+PROVINCE: LIV
+  6 4 4
+    GOB F T
+    BAL F T
+    PRU T T
+    WAR T F
+    MOS T F
+    STP T T
+    
+PROVINCE: FIN
+  4 3 3
+    NWY T F
+    SWE T T
+    GOB F T
+    STP T T
+    
+PROVINCE: TYR
+  6 6 0
+    MUN T F
+    PIE T F
+    VEN T F
+    TRI T F
+    VIE T F
+    BOH T F
+    
+    
+    
+    
+    
+PROVINCE: LVP
+  6 4 4
+    CLY T T
+    NAO F T
+    IRI F T
+    WAL T T
+    YOR T F
+    EDI T F
+    
+PROVINCE: EDI
+  5 3 4
+    NWG F T
+    CLY T T
+    LVP T F
+    YOR T T
+    NTH F T
+
+PROVINCE: LON
+  4 2 4
+    YOR T T
+    WAL T T
+    ENG F T
+    NTH F T
+    
+PROVINCE: BEL
+  6 4 4
+    ENG F T
+    PIC T T
+    BUR T F
+    RUH T F
+    HOL T T
+    NTH F T
+    
+PROVINCE: BRE
+  5 3 4
+    MAO F T
+    ENG F T
+    PIC T T
+    PAR T F
+    GAS T T
+    
+PROVINCE: PAR
+  4 4 0
+    BRE T F
+    GAS T F
+    BUR T F
+    PIC T F
+    
+PROVINCE: MAR
+  5 4 3
+    BUR T F
+    GAS T F
+    SPA T T
+    GOL F T
+    PIE T T
+    
+PROVINCE: POR
+  2 1 2
+    SPA T T
+    MAO F T
+    
+PROVINCE: VEN
+  7 6 3
+    TYR T F
+    PIE T F
+    TUS T F
+    ROM T F
+    APU T T
+    ADR F T
+    TRI T T
+    
+PROVINCE: ROM 
+  5 4 3  
+    VEN T F
+    TUS T T
+    TYS F T
+    NAP T T
+    APU T F
+  
+PROVINCE: TRI
+  7 6 3
+    VIE T F
+    TYR T F
+    VEN T T
+    ADR F T
+    ALB T T
+    SER T F
+    BUD T F
+    
+PROVINCE: VIE
+  5 5 0
+    TYR T F
+    TRI T F
+    BUD T F
+    GAL T F
+    BOH T F
+    
+PROVINCE: BUD
+  5 5 0
+    GAL T F
+    VIE T F
+    TRI T F
+    SER T F
+    RUM T F
+    
+PROVINCE: SER
+  6 6 0
+    BUD T F 
+    TRI T F
+    ALB T F
+    GRE T F
+    BUL T F
+    RUM T F
+    
+PROVINCE: GRE
+  5 3 4
+    SER T F
+    ALB T T
+    ION F T
+    AEG F T
+    BUL T T
+    
+PROVINCE: KIE
+  7 5 5
+    HEL F T
+    HOL T T
+    RUH T F
+    MUN T F
+    BER T T
+    BAL F T
+    DEN T T
+    
+PROVINCE: BER
+  5 4 3
+    BAL F T
+    KIE T T
+    MUN T F
+    SIL T F
+    PRU T T
+    
+PROVINCE: MUN
+  7 7 0
+    KIE T F
+    RUH T F
+    BUR T F
+    TYR T F
+    BOH T F
+    SIL T F
+    BER T F
+    
+PROVINCE: SWE
+  6 3 6
+    NWY T T
+    SKA F T
+    DEN T T
+    BAL F T
+    GOB F T
+    FIN T T
+    
+PROVINCE: NWY
+  7 3 6
+    BAR F T
+    NWG F T
+    NTH F T
+    SKA F T
+    SWE T T
+    FIN T F
+    STP T T
+    
+PROVINCE: RUM
+  7 6 3
+    UKR T F
+    GAL T F
+    BUD T F
+    SER T F
+    BUL T T
+    BLA F T
+    SEV T T
+    
+PROVINCE: SEV
+  5 4 2
+    MOS T F
+    UKR T F
+    RUM T T
+    BLA F T
+    ARM T F
+    
+PROVINCE: ANK
+  4 3 3
+    BLA F T
+    CON T T
+    SMY T F
+    ARM T T
+    
+PROVINCE: SMY
+  6 4 4
+    ANK T F
+    CON T T
+    AEG F T
+    EMS F T
+    SYR T T
+    ARM T F
+  
+PROVINCE: NAP
+  4 2 4
+    ROM T T
+    TYS F T
+    ION F T
+    APU T T
+    
+PROVINCE: WAR
+  6 6 0
+    LIV T F
+    PRU T F
+    SIL T F
+    GAL T F
+    UKR T F
+    MOS T F
+    
+PROVINCE: MOS
+  5 5 0
+    LIV T F
+    WAR T F
+    UKR T F
+    SEV T F
+    STP T F
+    
+PROVINCE: TUN
+  4 1 4
+    NAF T T
+    WMS F T
+    TYS F T
+    ION F T
+    
+PROVINCE: HOL
+  5 3 4
+    NTH F T
+    BEL T T
+    RUH T F
+    KIE T T
+    HEL F T
+    
+PROVINCE: DEN
+  6 2 6
+    SKA F T
+    NTH F T
+    HEL F T
+    KIE T T
+    BAL F T
+    SWE T T
+    
+PROVINCE: CON
+  5 3 5
+    BLA F T
+    BUL T T
+    AEG F T
+    SMY T T
+    ANK T T
+    
+    
+    
+PROVINCE: BUL
+  5 4 3
+    SER T F
+    RUM T T
+    BLA F T
+    CON T T
+    GRE T F
+  3 2 3
+    GRE T T
+    AEG F T
+    CON T T
+  
+PROVINCE: STP
+  4 3 2
+    BAR F T
+    NWY T T
+    FIN T F
+    NWY T F
+  4 3 3
+    FIN T T
+    GOB F T
+    LIV T T
+    MOS T F
+    
+PROVINCE: SPA
+  4 3 3
+    GAS T T
+    MAO F T
+    POR T T
+    MAR T F
+  5 2 5
+    POR T T
+    MAO F T
+    WMS F T
+    GOL F T
+    MAR T T
